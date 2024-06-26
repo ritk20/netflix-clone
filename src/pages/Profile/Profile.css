@@ -1,0 +1,70 @@
+.navbar-profile .navbar-left{
+  display: none;
+}
+
+.profile-body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 8%;
+  max-width: 800px;
+  border-bottom: 1px solid #333;
+}
+
+.profile-info{
+  display: flex;
+}
+
+.profile-info img{
+  height: 150px;
+}
+
+.profile-info h1{
+  font-size: 60px;
+  font-weight: 400;
+  border-bottom: 1px solid #333;
+  margin-bottom: 20px;
+}
+
+.profile-details{
+  margin-left: 25px;
+  flex: 1;
+  margin-top: 0;
+}
+
+.profile-details h2{
+  padding: 15px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.profile-details p{
+  background-color: gray;
+  padding: 15px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.profile-plans{
+  margin-top: 20px;
+}
+
+.profile-plans h3{
+
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+}
+
+.profile-signout{
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 5%;
+  width: 100%;
+  color: #fff;
+  background-color: #f40612;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
